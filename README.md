@@ -1,9 +1,9 @@
 # userdirectory
 
 ## Description
-### Deployed link: https://egfitnesstracker.herokuapp.com/
+### Deployed link: 
 <!-- ### Deployed Link: https://drive.google.com/file/d/1-XAT8Oc79o2i-m3acG4mLPja_KHGTECF/view -->
-Don't let Covid 19 get the best of you, take advantage of this fitness app to add a new workout, delete a workout, add info to an existing workout and track your workout to make your goals!
+Want to get to know your employess, Use this app to track their general information to give you easy access to contact eveyone on your team!
 
 ## Table of Contents
 1. [Description](#-Description)
@@ -15,7 +15,7 @@ Don't let Covid 19 get the best of you, take advantage of this fitness app to ad
 
 ## Visuals 
 
-![fitnesstracker](https://github.com/emilygoeres/fitnesstracker/blob/main/fitness.PNG)
+![userDirectory](.PNG)
 
 ## Technologies 
 * NoSQL
@@ -30,13 +30,7 @@ Don't let Covid 19 get the best of you, take advantage of this fitness app to ad
 1. Install all npm packages. Modify the config.json to work with your own sql.  
     
 ## Steps
-1. Intalled NPM packages and connected to mongo
-2. Added color and layout for the webpage
-3. Created add workout, Delete workouts, add to existing workout buttons
-4. Added all items for to fill out to add a new workout
-5. Created the functionality to adjust the existing workout
-6. Added routes to add/update a workout
-7. Connected to Mongo, connected to the html page and allowed user to access webpage
+1. Created all folders and files for app
 
 ## Author
 
