@@ -1,6 +1,6 @@
 // This allows react to perform, so everythiung will show uyp on each page
 import React from "react"
-// The axios is what we use so we canb use an API
+// The axios is what we use so we can use an API
 import axios from "axios"
 import {MDBDataTable} from "mdbreact"
 

@@ -15,7 +15,7 @@ Want to get to know your employess, Use this app to track their general informat
 
 ## Visuals 
 
-![userDirectory](.PNG)
+![userDirectory](https://github.com/emilygoeres/userdirectory/blob/main/userdirectory.PNG)
 
 ## Technologies 
 * NoSQL
