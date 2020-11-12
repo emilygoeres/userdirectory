@@ -33,6 +33,10 @@ Want to get to know your employess, Use this app to track their general informat
 1. Installed create-react-app
 2. Created the different js files inside the pages folder
 3. Created Header, Footer, Main connected all pages to run on the app.js
+4. Added axios info for API
+5. Added link for API
+6. Added .push info to add another employee
+7. Created all info for the table
 
 ## Author
 
