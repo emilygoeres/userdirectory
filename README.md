@@ -2,7 +2,7 @@
 
 ## Description
 ### Deployed link: 
-<!-- ### Deployed Link: https://drive.google.com/file/d/1-XAT8Oc79o2i-m3acG4mLPja_KHGTECF/view -->
+### Deployed Link: https://emilygoeres.github.io/userdirectory/
 Want to get to know your employess, Use this app to track their general information to give you easy access to contact eveyone on your team!
 
 ## Table of Contents
@@ -36,7 +36,8 @@ Want to get to know your employess, Use this app to track their general informat
 4. Added axios info for API
 5. Added link for API
 6. Added .push info to add another employee
-7. Created all info for the table
+7. Created all info for the table info"
+
 
 ## Author
 
