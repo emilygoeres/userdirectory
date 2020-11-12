@@ -1,3 +1,5 @@
+// This allows react to perform, so everythiung will show uyp on each page
+
 import  React from "react"
 function Header(){
     return(

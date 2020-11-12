@@ -1,3 +1,4 @@
+// Links everything together to ensure all pages have the same header, footer, main
 import logo from './logo.svg';
 import './App.css';
 import Header from "./pages/Header"

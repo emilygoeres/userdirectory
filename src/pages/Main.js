@@ -1,4 +1,6 @@
+// This allows react to perform, so everythiung will show uyp on each page
 import React from "react"
+// The axios is what we use so we canb use an API
 import axios from "axios"
 import {MDBDataTable} from "mdbreact"
 
@@ -7,19 +9,22 @@ class Main extends React.Component {
         employeeDataBase: []
     }
     componentDidMount = () => {
-        axios.get("https://randomuser.me/api/?results=200&nat=us")
+        // API info for the employees list
+        axios.get("https://randomuser.me/api/?results=200&nat=us") 
             .then((employee)=>{
                 console.log(employee)
                 var employeeList = employee.data.results
                 var employeeDataBase = []
                 for (let i=0; i<employeeList.length; i++){
                     var record = {
+                        // all info we are recieveing for each employee
                         firstName: employeeList[i].name.first, 
                         lastName: employeeList[i].name.last,
                         cellphone: employeeList[i].cell,
                         email: employeeList[i].email,
                         location: employeeList[i].location.city
                     }
+                    // Adds a new person to the end of the list
                     employeeDataBase.push(record)
                 }
                 this.setState({employeeDataBase:employeeDataBase})
@@ -27,6 +32,7 @@ class Main extends React.Component {
 
             })
     }
+    // Thus is whats going to be in the table
     render() {
         const data = {
             columns: [
